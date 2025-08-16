@@ -1,0 +1,262 @@
+{
+	"oversized_in_gui": true,
+	"model": {
+    "type": "select",
+    "property": "component",
+    "component": "custom_name",
+    "cases": [
+				{
+					"when": "Шляпа сайфера",
+					"model": {
+						"type": "model",
+						"model": "item/liba_hats/4pek_hat/1"
+					}
+				},
+				{
+					"when": "Пляжная шляпка",
+					"model": {
+						"type": "model",
+						"model": "item/liba_hats/bich/1"
+					}
+				},
+				{
+					"when": "Большой цилиндр",
+					"model": {
+						"type": "model",
+						"model": "item/liba_hats/cilindr/1"
+					}
+				},
+				{
+					"when": "Лёгкая шляпа",
+					"model": {
+						"type": "model",
+						"model": "item/liba_hats/easy_hat/1"
+					}
+				},
+				{
+					"when": "Призрак",
+					"model": {
+						"type": "model",
+						"model": "item/liba_hats/goust/1"
+					}
+				},
+				{
+					"when": "Шлем с пропеллером",
+					"model": {
+						"type": "model",
+						"model": "item/liba_hats/helicopter/1"
+					}
+				},
+				{
+					"when": "Шлем оперативника",
+					"model": {
+						"type": "model",
+						"model": "item/liba_hats/hlem/1"
+					}
+				},
+				{
+					"when": "Клоунский нос",
+					"model": {
+						"type": "model",
+						"model": "item/liba_hats/kloun/1"
+					}
+				},
+				{
+					"when": "Курительная трубка",
+					"model": {
+						"type": "model",
+						"model": "item/liba_hats/kur-trubka/1"
+					}
+				},
+				{
+					"when": "Наушники",
+					"model": {
+						"type": "model",
+						"model": "item/liba_hats/naushniki/1"
+					}
+				},
+				{
+					"when": "Шапка Люминизма",
+					"model": {
+						"type": "model",
+						"model": "item/liba_hats/paster_lum/1"
+					}
+				},
+				{
+					"when": "Респиратор",
+					"model": {
+						"type": "model",
+						"model": "item/liba_hats/resp/1"
+					}
+				},
+				{
+					"when": "Роза",
+					"model": {
+					"type": "range_dispatch",
+					"property": "count",
+					"normalize": false,
+					"entries": [
+					{
+						"threshold": 0,
+						"model": {
+						"type": "model",
+						"model": "item/liba_hats/roza/r"
+						}
+					},
+					{
+						"threshold": 2,
+						"model": {
+						"type": "model",
+						"model": "item/liba_hats/roza/br2"
+								}
+							},
+							{
+						"threshold": 3,
+						"model": {
+						"type": "model",
+						"model": "item/liba_hats/roza/br3"
+								}
+							},
+							{
+						"threshold": 4,
+						"model": {
+						"type": "model",
+						"model": "item/liba_hats/roza/b1"
+								}
+							},
+							{
+						"threshold": 5,
+						"model": {
+						"type": "model",
+						"model": "item/liba_hats/roza/b2"
+								}
+							}
+						]
+					}
+				},
+				{
+					"when": "Стимпанк очки",
+					"model": {
+						"type": "model",
+						"model": "item/liba_hats/stimpank/1"
+					}
+				},
+				{
+					"when": "Стрела",
+					"model": {
+						"type": "model",
+						"model": "item/liba_hats/strla/st"
+					}
+				},
+				{
+					"when": "USA hat",
+					"model": {
+						"type": "model",
+						"model": "item/liba_hats/usa/1"
+					}
+				},
+				{
+					"when": "Маска жителя",
+					"model": {
+						"type": "model",
+						"model": "item/liba_hats/villager/1"
+					}
+				},
+				{
+					"when": "Шляпа ведьмы",
+					"model": {
+						"type": "model",
+						"model": "item/liba_hats/witch/1"
+					}
+				},
+				{
+					"when": "Шлем «FAUST»",
+					"model": {
+						"type": "model",
+						"model": "item/liba_hats/huina/1"
+					}
+				},
+				{
+					"when": "Колизей",
+					"model": {
+						"type": "model",
+						"model": "item/decor/miniature/kolizei"
+					}
+				},
+				{
+					"when": "Хижина OIOIOI",
+					"model": {
+						"type": "model",
+						"model": "item/decor/miniature/dom_oioioi"
+					}
+				},
+				{
+					"when": "Церковь Люминизма",
+					"model": {
+						"type": "model",
+						"model": "item/decor/miniature/paster_lum"
+					}
+				},
+				{
+					"when": "Универ",
+					"model": {
+						"type": "model",
+						"model": "item/decor/miniature/univer"
+					}
+				},
+				{
+					"when": "Таверна",
+					"model": {
+						"type": "model",
+						"model": "item/decor/miniature/taverna"
+					}
+				},
+				{
+					"when": "Дом экспериментатора",
+					"model": {
+						"type": "model",
+						"model": "item/decor/miniature/ne_taverna"
+					}
+				},
+				{
+					"when": "Ковбойская шляпа",
+					"model": {
+						"type": "model",
+						"model": "item/liba_hats/cowboy/1"
+					}
+				},
+				{
+					"when": "Белая ковбойская шляпа",
+					"model": {
+						"type": "model",
+						"model": "item/liba_hats/cowboy/2"
+					}
+				},
+				{
+					"when": "Красная ковбойская шляпа",
+					"model": {
+						"type": "model",
+						"model": "item/liba_hats/cowboy/3"
+					}
+				},
+				{
+					"when": "Чёрная ковбойская шляпа",
+					"model": {
+						"type": "model",
+						"model": "item/liba_hats/cowboy/4"
+					}
+				},
+				{
+					"when": "Ellie's rim",
+					"model": {
+						"type": "model",
+						"model": "item/liba_hats/ellie/1"
+					}
+				}
+    ],
+    "fallback": {
+          "type": "model",
+          "model": "block/carved_pumpkin"
+    }
+  }
+}

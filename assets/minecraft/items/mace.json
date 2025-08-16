@@ -1,0 +1,35 @@
+{
+	"oversized_in_gui": true,
+	"model": {
+    "type": "select",
+    "property": "component",
+    "component": "custom_name",
+    "cases": [
+				{
+					"when": "BAN Hammer",
+					"model": {
+						"type": "model",
+						"model": "item/weapons/personalki/banhammer/1"
+					}
+				},
+				{
+					"when": "Сварог",
+					"model": {
+						"type": "model",
+						"model": "item/weapons/personalki/svarog/1"
+					}
+				},
+				{
+					"when": "Молот Гефеста",
+					"model": {
+						"type": "model",
+						"model": "item/weapons/ostalnoe/molot_gefesta/1"
+					}
+				}
+		],
+    "fallback": {
+          "type": "model",
+          "model": "minecraft:item/mace"
+    }
+  }
+}

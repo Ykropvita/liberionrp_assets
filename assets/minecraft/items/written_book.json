@@ -1,0 +1,142 @@
+{
+	"oversized_in_gui": true,
+	"model": {
+        "type": "select",
+        "property": "component",
+        "component": "custom_name",
+        "cases":[
+			{"when": ["Книга Либерала","Книга либерала"],
+				"model": {
+					"type": "model",
+					"model": "item/decor/books/liberala"
+				}
+			},
+			{
+				"when": ["Лорная книга"],
+				"model": {
+					"type": "model",
+					"model": "item/decor/books/lor"
+				}
+			},
+			{
+				"when": ["Книга Укропа","книга Укропа"],
+				"model": {
+					"type": "model",
+					"model": "item/decor/books/ykrop"
+				}
+			},
+			{
+				"when": ["Блокнот"],
+				"model": {
+					"type": "model",
+					"model": "item/decor/books/bloknot"
+				}
+			},
+			{
+				"when": ["Письмо"],
+				"model": {
+					"type": "model",
+					"model": "item/decor/books/letter"
+				}
+			},
+			{"when": ["Знак благодарности"],
+			"model": {
+				"type":"composite",
+				"models":[
+					{
+				"type": "condition",
+				"property": "component",
+				"predicate": "enchantments",
+				"value":   [{"enchantments": "unbreaking"}],
+				"on_true": {
+					"type": "model",
+					"model": "z"
+						},
+				"on_false": {
+					"type": "model",
+					"model": "item/written_book"
+						}
+					},
+					{
+				"type": "condition",
+				"property": "component",
+				"predicate": "enchantments",
+				"value": [{"enchantments": "unbreaking","levels":10}],
+				"on_true": {
+					"type": "model",
+					"model": "item/admin_huina/donate/1"
+						},
+				"on_false": {
+					"type": "model",
+					"model": "z"
+						}
+					},
+					{
+				"type": "condition",
+				"property": "component",
+				"predicate": "enchantments",
+				"value": [{"enchantments": "unbreaking","levels":11}],
+				"on_true": {
+					"type": "model",
+					"model": "item/admin_huina/donate/2"
+						},
+				"on_false": {
+					"type": "model",
+					"model": "z"
+						}
+					},
+					{
+				"type": "condition",
+				"property": "component",
+				"predicate": "enchantments",
+				"value": [{"enchantments": "unbreaking","levels":12}],
+				"on_true": {
+					"type": "model",
+					"model": "item/admin_huina/donate/3"
+						},
+				"on_false": {
+					"type": "model",
+					"model": "z"
+						}
+					},
+					{
+				"type": "condition",
+				"property": "component",
+				"predicate": "enchantments",
+				"value": [{"enchantments": "unbreaking","levels":13}],
+				"on_true": {
+					"type": "model",
+					"model": "item/admin_huina/donate/4"
+						},
+				"on_false": {
+					"type": "model",
+					"model": "z"
+						}
+					}
+				]
+				}
+				},
+				{
+            "when": ["Награда TopLib 2025"],
+            "model": {
+                "type": "condition",
+                "property": "component",
+                "predicate": "enchantments",
+                "value": [{"enchantments": "fire_protection","levels":12}],
+                "on_true": {
+                    "type": "model",
+                    "model": "item/admin_huina/kubok_toplib25"
+                        },
+                "on_false": {
+                    "type": "model",
+                    "model": "item/written_book"
+                        }
+                    }
+				}
+				],
+	"fallback": {
+		"type": "model",
+		"model": "minecraft:item/written_book"
+	}
+  }
+}

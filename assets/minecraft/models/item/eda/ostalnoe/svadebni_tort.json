@@ -1,0 +1,107 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"texture_size": [64, 64],
+	"textures": {
+		"0": "item/eda/ostalnoe/svadebni_tort",
+		"particle": "item/eda/ostalnoe/svadebni_tort"
+	},
+	"elements": [
+		{
+			"from": [4, 6, 4],
+			"to": [12, 13, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [1, 8, 1]},
+			"faces": {
+				"north": {"uv": [9, 4.5, 11, 6.25], "texture": "#0", "cullface": "north"},
+				"east": {"uv": [9, 6.25, 11, 8], "texture": "#0", "cullface": "east"},
+				"south": {"uv": [0, 10, 2, 11.75], "texture": "#0", "cullface": "south"},
+				"west": {"uv": [5, 10, 7, 11.75], "texture": "#0", "cullface": "west"},
+				"up": {"uv": [2, 10, 0, 8], "texture": "#0", "cullface": "up"},
+				"down": {"uv": [10, 8.5, 8, 10.5], "texture": "#0", "cullface": "down"}
+			}
+		},
+		{
+			"from": [3.5, 5.5, 3.5],
+			"to": [12.5, 13.5, 12.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [1, 8, 1]},
+			"faces": {
+				"north": {"uv": [2, 6, 4, 7.75], "texture": "#0", "cullface": "north"},
+				"east": {"uv": [6, 2, 8, 3.75], "texture": "#0", "cullface": "east"},
+				"south": {"uv": [6, 3.75, 8, 5.5], "texture": "#0", "cullface": "south"},
+				"west": {"uv": [4, 6, 6, 7.75], "texture": "#0", "cullface": "west"},
+				"up": {"uv": [2, 8, 0, 6], "texture": "#0", "cullface": "up"},
+				"down": {"uv": [8, 0, 6, 2], "texture": "#0", "cullface": "down"}
+			}
+		},
+		{
+			"from": [2, 0, 2],
+			"to": [14, 6, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [1, 0, 1]},
+			"faces": {
+				"north": {"uv": [8, 0, 11, 1.5], "texture": "#0", "cullface": "north"},
+				"east": {"uv": [8, 1.5, 11, 3], "texture": "#0", "cullface": "east"},
+				"south": {"uv": [8, 3, 11, 4.5], "texture": "#0", "cullface": "south"},
+				"west": {"uv": [5, 8.5, 8, 10], "texture": "#0", "cullface": "west"},
+				"up": {"uv": [9, 8.5, 6, 5.5], "texture": "#0", "cullface": "up"},
+				"down": {"uv": [5, 7.75, 2, 10.75], "texture": "#0", "cullface": "down"}
+			}
+		},
+		{
+			"from": [1.5, -0.5, 1.5],
+			"to": [14.5, 6.5, 14.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [1, 0, 1]},
+			"faces": {
+				"north": {"uv": [3, 0, 6, 1.5], "texture": "#0", "cullface": "north"},
+				"east": {"uv": [3, 1.5, 6, 3], "texture": "#0", "cullface": "east"},
+				"south": {"uv": [3, 3, 6, 4.5], "texture": "#0", "cullface": "south"},
+				"west": {"uv": [3, 4.5, 6, 6], "texture": "#0", "cullface": "west"},
+				"up": {"uv": [3, 3, 0, 0], "texture": "#0", "cullface": "up"},
+				"down": {"uv": [3, 3, 0, 6], "texture": "#0", "cullface": "down"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [67, 0, 0],
+			"translation": [0, 8, 4.25]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [67, 0, 0],
+			"translation": [0, 8, 4.25]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -27.25, 0],
+			"translation": [2, 4.5, -3]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -27.25, 0],
+			"translation": [2, 4.5, -3]
+		},
+		"ground": {
+			"translation": [0, 7.25, 0],
+			"scale": [1.2, 1.2, 1.2]
+		},
+		"gui": {
+			"rotation": [1.08, -22.06, -14.73],
+			"translation": [0.75, 1.25, 0],
+			"scale": [0.9, 0.9, 0.9]
+		},
+		"head": {
+			"translation": [0, 9.75, 0],
+			"scale": [1.6, 1.6, 1.6]
+		},
+		"fixed": {
+			"rotation": [-90, 0, 0],
+			"translation": [0, 0, -19],
+			"scale": [2.5, 2.5, 2.5]
+		}
+	},
+	"groups": [
+		{
+			"name": "group",
+			"origin": [1, 8, 1],
+			"color": 0,
+			"children": [0, 1, 2, 3]
+		}
+	]
+}

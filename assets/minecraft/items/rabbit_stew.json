@@ -1,0 +1,49 @@
+{
+	"oversized_in_gui": true,
+	"model": {
+    "type": "select",
+    "property": "component",
+    "component": "custom_name",
+    "cases": [
+				{
+					"when": "Сырный суп",
+					"model": {
+						"type": "model",
+						"model": "item/eda/v_miske/sirni_sup"
+					}
+				},
+				{
+					"when": "Оливье",
+					"model": {
+						"type": "model",
+						"model": "item/eda/v_miske/olivie"
+					}
+				},
+				{
+					"when": "Грибной суп",
+					"model": {
+						"type": "model",
+						"model": "item/eda/v_miske/gribnoi"
+					}
+				},
+				{
+					"when": "Борщ",
+					"model": {
+						"type": "model",
+						"model": "item/eda/v_miske/borsch"
+					}
+				},
+				{
+					"when": "Куриный суп",
+					"model": {
+						"type": "model",
+						"model": "item/eda/v_miske/kurini"
+					}
+				}
+    ],
+    "fallback": {
+          "type": "model",
+          "model": "minecraft:item/rabbit_stew"
+    }
+  }
+}

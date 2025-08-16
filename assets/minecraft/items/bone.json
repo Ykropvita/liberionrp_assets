@@ -1,0 +1,21 @@
+{
+	"oversized_in_gui": true,
+	"model": {
+    "type": "select",
+    "property": "component",
+    "component": "custom_name",
+    "cases": [
+				{
+					"when": "Череп буйвола",
+					"model": {
+						"type": "model",
+						"model": "item/decor/bone/buivol"
+					}
+				}
+		],
+    "fallback": {
+          "type": "model",
+          "model": "minecraft:item/bone"
+    }
+  }
+}

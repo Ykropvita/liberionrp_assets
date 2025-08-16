@@ -1,0 +1,161 @@
+{
+	"oversized_in_gui": true,
+	"model": {
+    "type": "select",
+    "property": "component",
+    "component": "custom_name",
+    "cases": [
+				{
+					"when": "Semionel",
+					"model": {
+						"type": "model",
+						"model": "item/statuetki/semionel"
+					}
+				},
+				{
+					"when": "Ykrop",
+					"model": {
+						"type": "model",
+						"model": "item/statuetki/ykrop"
+					}
+				},
+				{
+					"when": "Unfr",
+					"model": {
+						"type": "model",
+						"model": "item/statuetki/unfr"
+					}
+				},
+				{
+					"when": "Ancherri",
+					"model": {
+						"type": "model",
+						"model": "item/statuetki/ancherri"
+					}
+				},
+				{
+					"when": "HoroNi_",
+					"model": {
+						"type": "model",
+						"model": "item/statuetki/horoni"
+					}
+				},
+				{
+					"when": "Pasteger",
+					"model": {
+						"type": "model",
+						"model": "item/statuetki/paster"
+					}
+				},
+				{
+					"when": "Image_Alex",
+					"model": {
+						"type": "model",
+						"model": "item/statuetki/alex"
+					}
+				},
+				{
+					"when": "Annaren12",
+					"model": {
+						"type": "model",
+						"model": "item/statuetki/annaren"
+					}
+				},
+				{
+					"when": "JDarioAM",
+					"model": {
+						"type": "model",
+						"model": "item/statuetki/dario"
+					}
+				},
+				{
+					"when": "dedus_D",
+					"model": {
+						"type": "model",
+						"model": "item/statuetki/dedus"
+					}
+				},
+				{
+					"when": "DOL1NA",
+					"model": {
+						"type": "model",
+						"model": "item/statuetki/dolina"
+					}
+				},
+				{
+					"when": "Dreg0naz",
+					"model": {
+						"type": "model",
+						"model": "item/statuetki/drag"
+					}
+				},
+				{
+					"when": "MrGrey",
+					"model": {
+						"type": "model",
+						"model": "item/statuetki/grey"
+					}
+				},
+				{
+					"when": "MrLecar",
+					"model": {
+						"type": "model",
+						"model": "item/statuetki/lecar"
+					}
+				},
+				{
+					"when": "leshe4kerr",
+					"model": {
+						"type": "model",
+						"model": "item/statuetki/leshker"
+					}
+				},
+				{
+					"when": "Logiks362",
+					"model": {
+						"type": "model",
+						"model": "item/statuetki/logiks"
+					}
+				},
+				{
+					"when": "Lumenuin",
+					"model": {
+						"type": "model",
+						"model": "item/statuetki/lumen"
+					}
+				},
+				{
+					"when": "maxmars",
+					"model": {
+						"type": "model",
+						"model": "item/statuetki/maxmars"
+					}
+				},
+				{
+					"when": "ritsuno",
+					"model": {
+						"type": "model",
+						"model": "item/statuetki/ritsu"
+					}
+				},
+				{
+					"when": "Stormi_9",
+					"model": {
+						"type": "model",
+						"model": "item/statuetki/storm"
+					}
+				},
+				{
+					"when": "Seva123",
+					"model": {
+						"type": "model",
+						"model": "item/statuetki/seva123"
+					}
+				}
+    ],
+    "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/stone_shovel"
+    }
+  }
+}

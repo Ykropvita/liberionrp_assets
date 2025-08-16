@@ -1,0 +1,443 @@
+{
+	"oversized_in_gui": true,
+	"model": {
+		"type": "select",
+		"property": "component",
+		"component": "custom_name",
+		"cases": [
+			{"when": ["Лорная трость"],
+				"model": {
+					"type": "model",
+					"model": "item/weapons/personalki/lor_trost/3"
+				}
+			},
+			{"when": ["Окровавленное копьё","Кровавое копьё"],
+				"model": {
+					"type": "model",
+					"model": "item/weapons/ostalnoe/kopio_aresa/1"
+				}
+			},
+			{"when": ["Серп"],
+				"model": {
+					"type": "model",
+					"model": "item/weapons/ostalnoe/serp/1"
+				}
+			},
+			{"when": ["Трость с птицей"],
+				"model": {
+					"type": "model",
+					"model": "item/weapons/ostalnoe/skipetr_liberion/1"
+				}
+			},
+			{"when": ["Трезубец"],
+				"model": {
+					"type": "model",
+					"model": "item/weapons/ostalnoe/trezub/1"
+				}
+			},
+			{"when": ["Двузубец"],
+				"model": {
+					"type": "model",
+					"model": "item/weapons/personalki/dvuzub/1"
+				}
+			},
+			{"when": ["Молния"],
+				"model": {
+					"type": "model",
+					"model": "item/weapons/personalki/molnia/1"
+				}
+			},
+			{"when": ["Бокал вина"],
+				"model": {
+					"type": "range_dispatch",
+					"property": "damage",
+					"normalize": false,
+					"entries": [
+					{
+						"threshold": 0,
+						"model": {
+						"type": "model",
+						"model": "item/weapons/personalki/bokal_vina/1"
+						}
+					},
+					{
+						"threshold": 1,
+						"model": {
+						"type": "model",
+						"model": "item/weapons/personalki/bokal_vina/2"
+							}
+						}
+					]
+				}
+			},
+			{"when": ["Кровопролитие"],
+				"model": {
+					"type": "model",
+					"model": "item/weapons/personalki/aferist1/1"
+				}
+			},
+			{"when": ["Василиск"],
+				"model": {
+					"type": "model",
+					"model": "item/weapons/personalki/aferist2/1"
+				}
+			},
+			{"when": "Клинок духа",
+				"model": {
+					"type": "select",
+					"model": "item/lor/l0",
+					"property": "display_context",
+					"cases": [
+						{
+							"when": [
+								"thirdperson_lefthand",
+								"firstperson_lefthand"
+							],
+							"model": {
+								"type": "model",
+								"model": "item/weapons/personalki/ancherrisabla/2"
+							}
+						}
+					],
+					"fallback": {
+						"type": "model",
+						"model": "item/weapons/personalki/ancherrisabla/1"
+					}
+				}
+			},
+			{"when": "Серебряный дух",
+				"model": {
+					"type": "select",
+					"model": "item/lor/l0",
+					"property": "display_context",
+					"cases": [
+						{
+							"when": [
+								"thirdperson_lefthand",
+								"firstperson_lefthand"
+							],
+							"model": {
+								"type": "model",
+								"model": "item/weapons/personalki/ancherrisilver/2"
+							}
+						}
+					],
+					"fallback": {
+						"type": "model",
+						"model": "item/weapons/personalki/ancherrisilver/1"
+					}
+				}
+			},
+			{"when": "Архистратиг",
+				"model": {
+					"type": "select",
+					"model": "item/lor/l0",
+					"property": "display_context",
+					"cases": [
+						{
+							"when": [
+								"thirdperson_lefthand",
+								"firstperson_lefthand"
+							],
+							"model": {
+								"type": "model",
+								"model": "item/weapons/personalki/bars/2"
+							}
+						}
+					],
+					"fallback": {
+						"type": "model",
+						"model": "item/weapons/personalki/bars/1"
+					}
+				}
+			},
+			{"when": ["Пчела на палке"],
+				"model": {
+					"type": "model",
+					"model": "item/weapons/personalki/beez/1"
+				}
+			},
+			{"when": "Darkbreaker",
+				"model": {
+					"type": "select",
+					"model": "item/lor/l0",
+					"property": "display_context",
+					"cases": [
+						{
+							"when": [
+								"thirdperson_lefthand",
+								"firstperson_lefthand"
+							],
+							"model": {
+								"type": "model",
+								"model": "item/weapons/personalki/dregonaz1/2"
+							}
+						}
+					],
+					"fallback": {
+						"type": "model",
+						"model": "item/weapons/personalki/dregonaz1/1"
+					}
+				}
+			},
+			{"when": "Icebreaker",
+				"model": {
+					"type": "select",
+					"model": "item/lor/l0",
+					"property": "display_context",
+					"cases": [
+						{
+							"when": [
+								"thirdperson_lefthand",
+								"firstperson_lefthand"
+							],
+							"model": {
+								"type": "model",
+								"model": "item/weapons/personalki/dregonaz2/2"
+							}
+						}
+					],
+					"fallback": {
+						"type": "model",
+						"model": "item/weapons/personalki/dregonaz2/1"
+					}
+				}
+			},
+			{"when": "Кромсатель мамок",
+				"model": {
+					"type": "select",
+					"model": "item/lor/l0",
+					"property": "display_context",
+					"cases": [
+						{
+							"when": [
+								"thirdperson_lefthand",
+								"firstperson_lefthand"
+							],
+							"model": {
+								"type": "model",
+								"model": "item/weapons/personalki/dario1/2"
+							}
+						}
+					],
+					"fallback": {
+						"type": "model",
+						"model": "item/weapons/personalki/dario1/1"
+					}
+				}
+			},
+			{"when": ["Листопад"],
+				"model": {
+					"type": "model",
+					"model": "item/weapons/personalki/dario2/1"
+				}
+			},
+			{"when": ["Меч Святой Сигмы"],
+				"model": {
+					"type": "model",
+					"model": "item/weapons/personalki/sigma_sword/1"
+				}
+			},
+			{"when": ["Алексиор"],
+				"model": {
+					"type": "model",
+					"model": "item/weapons/personalki/dolina/1"
+				}
+			},
+			{"when": ["Hight-Frequency Blade"],
+				"model": {
+					"type": "range_dispatch",
+					"property": "damage",
+					"normalize": false,
+					"entries": [
+					{
+						"threshold": 0,
+						"model": {
+						"type": "model",
+						"model": "item/weapons/personalki/emozill/1"
+						}
+					},
+					{
+						"threshold": 5,
+						"model": {
+						"type": "model",
+						"model": "item/weapons/personalki/emozill/2"
+							}
+						}
+					]
+				}
+			},
+			{"when": ["Клятва свободы"],
+				"model": {
+					"type": "model",
+					"model": "item/weapons/personalki/freedom/1"
+				}
+			},
+			{"when": ["Боевая коса"],
+				"model": {
+					"type": "model",
+					"model": "item/weapons/ostalnoe/kosa/k"
+				}
+			},
+			{"when": ["Горнило душ"],
+				"model": {
+					"type": "model",
+					"model": "item/weapons/personalki/golnus/1"
+				}
+			},
+			{"when": "Дикая роза",
+				"model": {
+					"type": "select",
+					"model": "item/lor/l0",
+					"property": "display_context",
+					"cases": [
+						{
+							"when": [
+								"thirdperson_lefthand",
+								"firstperson_lefthand"
+							],
+							"model": {
+								"type": "model",
+								"model": "item/weapons/personalki/katana/2"
+							}
+						}
+					],
+					"fallback": {
+						"type": "model",
+						"model": "item/weapons/personalki/katana/1"
+					}
+				}
+			},
+			{"when": ["Удача"],
+				"model": {
+					"type": "model",
+					"model": "item/weapons/personalki/gray/1"
+				}
+			},
+			{"when": ["Золотая трость"],
+				"model": {
+					"type": "model",
+					"model": "item/weapons/personalki/lor_trost/2"
+				}
+			},
+			{"when": ["Люмомеч"],
+				"model": {
+					"type": "model",
+					"model": "item/weapons/personalki/lumasword/1"
+				}
+			},
+			{"when": ["Разрыватель анусов"],
+				"model": {
+					"type": "range_dispatch",
+					"property": "damage",
+					"normalize": false,
+					"entries": [
+					{
+						"threshold": 0,
+						"model": {
+						"type": "model",
+						"model": "item/weapons/personalki/mafia/1"
+						}
+					},
+					{
+						"threshold": 1,
+						"model": {
+						"type": "model",
+						"model": "item/weapons/personalki/mafia/2"
+							}
+						}
+					]
+				}
+			},
+			{"when": ["Слёзы сироты"],
+				"model": {
+					"type": "model",
+					"model": "item/weapons/personalki/rise_man1/1"
+				}
+			},
+			{"when": ["Лезвие"],
+				"model": {
+					"type": "model",
+					"model": "item/weapons/personalki/rise_man2/1"
+				}
+			},
+			{"when": ["Talion"],
+				"model": {
+					"type": "range_dispatch",
+					"property": "damage",
+					"normalize": false,
+					"entries": [
+					{
+						"threshold": 0,
+						"model": {
+						"type": "model",
+						"model": "item/weapons/personalki/ritsu/1"
+						}
+					},
+					{
+						"threshold": 1,
+						"model": {
+						"type": "model",
+						"model": "item/weapons/personalki/ritsu/2"
+							}
+						}
+					]
+				}
+			},
+			{"when": ["Механический меч"],
+				"model": {
+					"type": "model",
+					"model": "item/weapons/personalki/unfr/1"
+				}
+			},
+			{"when": ["Зенит"],
+				"model": {
+					"type": "model",
+					"model": "item/weapons/personalki/zenit/1"
+				}
+			},
+			{"when": ["Whisper"],
+				"model": {
+					"type": "model",
+					"model": "item/weapons/horoni/horoni_sword/1"
+				}
+			},
+			{"when": ["Косторез"],
+				"model": {
+					"type": "model",
+					"model": "item/weapons/horoni/kostorez/1"
+				}
+			},
+			{"when": ["Меч из крови демона","Меч демонической крови"],
+				"model": {
+					"type": "model",
+					"model": "item/weapons/personalki/demon_blood_sword/123"
+				}
+			},
+			{"when": ["Demon slayer"],
+				"model": {
+					"type": "model",
+					"model": "item/weapons/personalki/demon_slayer/1"
+				}
+			}
+		],
+	"fallback": {
+		"type": "select",
+		"property": "component",
+		"component": "item_name",
+		"cases": [
+			{"when": [
+				"Клич свободы"],
+				"model": {
+					"type": "model",
+					"model": "item/weapons/ostalnoe/klich_svobodi/l"
+				}
+			}
+		],
+	"fallback": {
+		"type": "model",
+		"model": "minecraft:item/diamond_sword"
+	}
+  }
+  }
+}

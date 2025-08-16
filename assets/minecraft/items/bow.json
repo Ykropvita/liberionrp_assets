@@ -1,0 +1,211 @@
+{
+	"oversized_in_gui": true,
+	"model": {
+        "type": "select",
+        "property": "component",
+        "component": "custom_name",
+        "cases": [
+			{"when": "Справедливость [MrLecar]",
+			"model": {
+				"type": "condition",
+				"property": "component",
+				"predicate": "enchantments",
+				"value": [{"enchantments": "punch","levels":1}],
+				"on_true": {
+					"type": "range_dispatch",
+					"property": "use_duration",
+					"scale":0.05,
+					"entries": [
+					{
+						"threshold": 0,
+						"model": {
+						"type": "model",
+						"model": "item/weapons/personalki/lecar_luk/0"
+						}
+					},
+					{
+						"threshold": 0.01,
+						"model": {
+						"type": "model",
+						"model": "item/weapons/personalki/lecar_luk/1"
+						}
+					},
+					{
+						"threshold": 0.6,
+						"model": {
+						"type": "model",
+						"model": "item/weapons/personalki/lecar_luk/2"
+									}
+								},
+					{
+						"threshold": 1,
+						"model": {
+						"type": "model",
+						"model": "item/weapons/personalki/lecar_luk/3"
+									}
+								}
+							]
+						},
+				"on_false": {
+					"type": "range_dispatch",
+					"property": "use_duration",
+					"scale":0.05,
+					"entries": [
+					{
+						"threshold": 0,
+						"model": {
+						"type": "model",
+						"model": "item/bow"
+						}
+					},
+					{
+						"threshold": 0.1,
+						"model": {
+						"type": "model",
+						"model": "item/bow_pulling_0"
+									}
+								},
+					{
+						"threshold": 0.75,
+						"model": {
+						"type": "model",
+						"model": "item/bow_pulling_1"
+									}
+								},
+					{
+						"threshold": 1,
+						"model": {
+						"type": "model",
+						"model": "item/bow_pulling_2"
+									}
+								}
+							]
+				}
+				}
+			},
+			{"when": ["Автомат","автомат"],
+			"model": {
+					"type": "range_dispatch",
+					"property": "use_duration",
+					"scale":0.05,
+					"entries": [
+					{
+						"threshold": 0,
+						"model": {
+						"type": "model",
+						"model": "item/weapons/guns/avtomat/0"
+						}
+					},
+					{
+						"threshold": 0.01,
+						"model": {
+						"type": "model",
+						"model": "item/weapons/guns/avtomat/1"
+									}
+								},
+					{
+						"threshold": 0.6,
+						"model": {
+						"type": "model",
+						"model": "item/weapons/guns/avtomat/2"
+									}
+								},
+					{
+						"threshold": 1,
+						"model": {
+						"type": "model",
+						"model": "item/weapons/guns/avtomat/3"
+							}
+						}
+					]
+				}
+			},
+			{"when": ["Револьвер"],
+			"model": {
+					"type": "range_dispatch",
+					"property": "use_duration",
+					"scale":0.05,
+					"entries": [
+					{
+						"threshold": 0,
+						"model": {
+						"type": "model",
+						"model": "item/weapons/personalki/revolver/0"
+						}
+					},
+					{
+						"threshold": 0.01,
+						"model": {
+						"type": "model",
+						"model": "item/weapons/personalki/revolver/0_1"
+									}
+								},
+					{
+						"threshold": 0.2,
+						"model": {
+						"type": "model",
+						"model": "item/weapons/personalki/revolver/1"
+									}
+								},
+					{
+						"threshold": 0.5,
+						"model": {
+						"type": "model",
+						"model": "item/weapons/personalki/revolver/2"
+									}
+								},
+					{
+						"threshold": 0.75,
+						"model": {
+						"type": "model",
+						"model": "item/weapons/personalki/revolver/3"
+							}
+						},
+					{
+						"threshold": 1,
+						"model": {
+						"type": "model",
+						"model": "item/weapons/personalki/revolver/4"
+							}
+						}
+					]
+				}
+			}
+			],
+    "fallback": {
+					"type": "range_dispatch",
+					"property": "use_duration",
+					"scale":0.05,
+					"entries": [
+					{
+						"threshold": 0,
+						"model": {
+						"type": "model",
+						"model": "item/bow"
+						}
+					},
+					{
+						"threshold": 0.1,
+						"model": {
+						"type": "model",
+						"model": "item/bow_pulling_0"
+									}
+								},
+					{
+						"threshold": 0.75,
+						"model": {
+						"type": "model",
+						"model": "item/bow_pulling_1"
+									}
+								},
+					{
+						"threshold": 1,
+						"model": {
+						"type": "model",
+						"model": "item/bow_pulling_2"
+									}
+								}
+							]
+				}
+  }
+}

@@ -1,0 +1,61 @@
+{
+	"oversized_in_gui": true,
+	"model": {
+		"type": "select",
+		"property": "component",
+		"component": "custom_name",
+		"cases": [
+			{"when": ["Аметистиум"],
+				"model": {
+					"type": "model",
+					"model": "item/weapons/horoni/amethystium/1"
+				}
+			},
+			{"when": ["Топоро-гитара"],
+				"model": {
+					"type": "model",
+					"model": "item/weapons/personalki/gitara/1"
+				}
+			},
+			{"when": ["Громовержец"],
+				"model": {
+					"type": "model",
+					"model": "item/weapons/personalki/max_pila/1"
+				}
+			},
+			{"when": ["Топор Неизвесного"],
+				"model": {
+					"type": "range_dispatch",
+					"property": "damage",
+					"normalize": false,
+					"entries": [
+					{
+						"threshold": 0,
+						"model": {
+						"type": "model",
+						"model": "item/weapons/personalki/topor/t1"
+						}
+					},
+					{
+						"threshold": 1,
+						"model": {
+						"type": "model",
+						"model": "item/weapons/personalki/topor/t2"
+							}
+						}
+					]
+				}
+			},
+			{"when": ["Sticher"],
+				"model": {
+					"type": "model",
+					"model": "item/weapons/personalki/wazulon_topor/1"
+				}
+			}
+		],
+	"fallback": {
+		"type": "model",
+		"model": "minecraft:item/wooden_axe"
+	}
+  }
+}

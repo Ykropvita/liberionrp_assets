@@ -1,0 +1,7 @@
+{
+	"credit": "sigma",
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/totem/sigma"
+    }
+}

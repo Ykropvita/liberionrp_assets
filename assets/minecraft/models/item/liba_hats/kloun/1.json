@@ -1,0 +1,44 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "item/liba_hats/kloun/1",
+		"particle": "item/liba_hats/kloun/1"
+	},
+	"elements": [
+		{
+			"from": [7, 7, 7],
+			"to": [9, 9, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 7, 7]},
+			"faces": {
+				"north": {"uv": [0, 0, 2, 2], "texture": "#0"},
+				"east": {"uv": [0, 2, 2, 4], "texture": "#0"},
+				"south": {"uv": [2, 0, 4, 2], "texture": "#0"},
+				"west": {"uv": [2, 2, 4, 4], "texture": "#0"},
+				"up": {"uv": [2, 6, 0, 4], "texture": "#0"},
+				"down": {"uv": [6, 0, 4, 2], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"firstperson_righthand": {
+			"translation": [2.75, 0.75, 0],
+			"scale": [1, 1, 0.85]
+		},
+		"firstperson_lefthand": {
+			"translation": [2.75, 0.75, 0],
+			"scale": [1, 1, 0.85]
+		},
+		"gui": {
+			"rotation": [19.61, -24.9, 8.56],
+			"scale": [4, 4, 4]
+		},
+		"head": {
+			"translation": [0, -3.5, -7.25],
+			"scale": [1.85, 1.85, 1.85]
+		},
+		"fixed": {
+			"translation": [0, 0, -1.75],
+			"scale": [2, 2, 2]
+		}
+	}
+}

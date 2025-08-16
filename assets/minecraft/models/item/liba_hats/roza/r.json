@@ -1,0 +1,68 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "item/liba_hats/roza/roza",
+		"particle": "item/liba_hats/roza/roza"
+	},
+	"elements": [
+		{
+			"from": [8, 0, 5.875],
+			"to": [8, 16, 10.125],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6, 0, 5.875]},
+			"faces": {
+				"east": {"uv": [11, 0, 15.5, 16], "texture": "#0"},
+				"west": {"uv": [11, 0, 15.5, 16], "texture": "#0"}
+			}
+		},
+		{
+			"from": [5.875, 0, 8],
+			"to": [10.125, 16, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [11, 0, 15.5, 16], "texture": "#0"},
+				"south": {"uv": [11, 0, 15.5, 16], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [177.62, 56.87, -176.91],
+			"translation": [0, 1.5, 0.75],
+			"scale": [1.6, 1.5, 1.6]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [177.62, 56.87, -176.91],
+			"translation": [0, 1.5, 0.75],
+			"scale": [1.6, 1.5, 1.6]
+		},
+		"firstperson_righthand": {
+			"rotation": [11.47, -17.52, 8.58],
+			"translation": [2.25, 0, 0]
+		},
+		"firstperson_lefthand": {
+			"rotation": [11.47, -17.52, 8.58],
+			"translation": [2.25, 0, 0]
+		},
+		"ground": {
+			"rotation": [3, -43.97, 57.69],
+			"translation": [0, 5, 0],
+			"scale": [1.25, 1.2, 1.25]
+		},
+		"gui": {
+			"rotation": [30.45, -0.95, -40.76],
+			"translation": [0, 0, 80],
+			"scale": [1.7, 1.6, 1.7]
+		},
+		"head": {
+			"rotation": [-28.01, 0.78, -88.62],
+			"translation": [0, -4.5, -6.5],
+			"scale": [2.25, 2.25, 2.25]
+		},
+		"fixed": {
+			"rotation": [0, 167, 0],
+			"translation": [0, 7, -16.25],
+			"scale": [3.2, 3, 3.2]
+		}
+	}
+}

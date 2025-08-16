@@ -1,0 +1,70 @@
+{
+	"oversized_in_gui": true,
+	"model": {
+    "type": "select",
+    "property": "component",
+    "component": "custom_name",
+    "cases": [
+				{
+					"when": "Чёрное яйцо",
+					"model": {
+						"type": "model",
+						"model": "item/decor/eggs/black"
+					}
+				},
+				{
+					"when": "Зелёное яйцо",
+					"model": {
+						"type": "model",
+						"model": "item/decor/eggs/green"
+					}
+				},
+				{
+					"when": "Голубое яйцо",
+					"model": {
+						"type": "model",
+						"model": "item/decor/eggs/light_blue"
+					}
+				},
+				{
+					"when": "Оранжевое яйцо",
+					"model": {
+						"type": "model",
+						"model": "item/decor/eggs/orange"
+					}
+				},
+				{
+					"when": "Розовое яйцо",
+					"model": {
+						"type": "model",
+						"model": "item/decor/eggs/pink"
+					}
+				},
+				{
+					"when": "Красное яйцо",
+					"model": {
+						"type": "model",
+						"model": "item/decor/eggs/red"
+					}
+				},
+				{
+					"when": "Фиолетовое яйцо",
+					"model": {
+						"type": "model",
+						"model": "item/decor/eggs/violet"
+					}
+				},
+				{
+					"when": ["Жёлтое яйцо","Желтое яйцо"],
+					"model": {
+						"type": "model",
+						"model": "item/decor/eggs/yellow"
+					}
+				}
+    ],
+    "fallback": {
+          "type": "model",
+          "model": "minecraft:item/egg"
+    }
+  }
+}

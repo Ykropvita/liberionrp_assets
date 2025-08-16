@@ -1,0 +1,195 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Created by Stridey",
+	"parent": "item/hoe_display",
+	"textures": {
+		"particle": "item/hoe",
+		"hoe": "item/hoe"
+	},
+	"elements": [
+		{
+			"name": "golden_hoe_0",
+			"from": [7, 12, 7.5],
+			"to": [10, 15, 8.5],
+			"faces": {
+				"north": {"uv": [9.99, 1.01, 7.01, 3.99], "texture": "#hoe"},
+				"east": {"uv": [9.01, 1.01, 9.99, 3.99], "texture": "#hoe"},
+				"south": {"uv": [7.01, 1.01, 9.99, 3.99], "texture": "#hoe"},
+				"west": {"uv": [7.01, 1.01, 7.99, 3.99], "texture": "#hoe"},
+				"up": {"uv": [7.01, 1.01, 9.99, 1.99], "texture": "#hoe"},
+				"down": {"uv": [7.01, 3.01, 9.99, 3.99], "texture": "#hoe"}
+			}
+		},
+		{
+			"name": "golden_hoe_3",
+			"from": [6, 13, 7.5],
+			"to": [7, 14, 8.5],
+			"faces": {
+				"north": {"uv": [6.01, 2.99, 6.99, 2.01], "rotation": 180, "texture": "#hoe"},
+				"south": {"uv": [6.01, 2.01, 6.99, 2.99], "texture": "#hoe"},
+				"west": {"uv": [6.01, 2.01, 6.99, 2.99], "texture": "#hoe"},
+				"up": {"uv": [6.99, 2.01, 6.01, 2.99], "rotation": 180, "texture": "#hoe"},
+				"down": {"uv": [6.01, 2.01, 6.99, 2.99], "texture": "#hoe"}
+			}
+		},
+		{
+			"name": "golden_hoe_7",
+			"from": [10, 13, 7.5],
+			"to": [11, 14, 8.5],
+			"faces": {
+				"north": {"uv": [10.01, 2.99, 10.99, 2.01], "rotation": 180, "texture": "#hoe"},
+				"east": {"uv": [10.01, 2.01, 10.99, 2.99], "texture": "#hoe"},
+				"south": {"uv": [10.01, 2.01, 10.99, 2.99], "texture": "#hoe"},
+				"up": {"uv": [10.99, 2.01, 10.01, 2.99], "rotation": 180, "texture": "#hoe"}
+			}
+		},
+		{
+			"name": "golden_hoe_14",
+			"from": [10, 10, 7.5],
+			"to": [14, 13, 8.5],
+			"faces": {
+				"north": {"uv": [13.99, 3.01, 10.01, 5.99], "texture": "#hoe"},
+				"east": {"uv": [13.01, 3.01, 13.99, 5.99], "texture": "#hoe"},
+				"south": {"uv": [10.01, 3.01, 13.99, 5.99], "texture": "#hoe"},
+				"west": {"uv": [10.01, 3.01, 10.99, 5.99], "texture": "#hoe"},
+				"up": {"uv": [10.01, 3.01, 13.99, 3.99], "texture": "#hoe"},
+				"down": {"uv": [10.01, 5.01, 13.99, 5.99], "texture": "#hoe"}
+			}
+		},
+		{
+			"name": "golden_hoe_15",
+			"from": [9, 11, 7.5],
+			"to": [10, 12, 8.5],
+			"faces": {
+				"north": {"uv": [9.01, 4.99, 9.99, 4.01], "rotation": 180, "texture": "#hoe"},
+				"south": {"uv": [9.01, 4.01, 9.99, 4.99], "texture": "#hoe"},
+				"west": {"uv": [9.01, 4.01, 9.99, 4.99], "texture": "#hoe"},
+				"down": {"uv": [9.01, 4.01, 9.99, 4.99], "texture": "#hoe"}
+			}
+		},
+		{
+			"name": "golden_hoe_24",
+			"from": [9, 9, 7.5],
+			"to": [13, 10, 8.5],
+			"faces": {
+				"north": {"uv": [12.99, 6.01, 9.01, 6.99], "texture": "#hoe"},
+				"east": {"uv": [12.01, 6.01, 12.99, 6.99], "texture": "#hoe"},
+				"south": {"uv": [9.01, 6.01, 12.99, 6.99], "texture": "#hoe"},
+				"west": {"uv": [9.01, 6.01, 9.99, 6.99], "texture": "#hoe"},
+				"up": {"uv": [9.01, 6.01, 12.99, 6.99], "texture": "#hoe"},
+				"down": {"uv": [9.01, 6.01, 12.99, 6.99], "texture": "#hoe"}
+			}
+		},
+		{
+			"name": "golden_hoe_28",
+			"from": [8, 8, 7.5],
+			"to": [11, 9, 8.5],
+			"faces": {
+				"north": {"uv": [10.99, 7.01, 8.01, 7.99], "texture": "#hoe"},
+				"east": {"uv": [10.01, 7.01, 10.99, 7.99], "texture": "#hoe"},
+				"south": {"uv": [8.01, 7.01, 10.99, 7.99], "texture": "#hoe"},
+				"west": {"uv": [8.01, 7.01, 8.99, 7.99], "texture": "#hoe"},
+				"up": {"uv": [8.01, 7.01, 10.99, 7.99], "texture": "#hoe"},
+				"down": {"uv": [8.01, 7.01, 10.99, 7.99], "texture": "#hoe"}
+			}
+		},
+		{
+			"name": "golden_hoe_31",
+			"from": [7, 7, 7.5],
+			"to": [10, 8, 8.5],
+			"faces": {
+				"north": {"uv": [9.99, 8.01, 7.01, 8.99], "texture": "#hoe"},
+				"east": {"uv": [9.01, 8.01, 9.99, 8.99], "texture": "#hoe"},
+				"south": {"uv": [7.01, 8.01, 9.99, 8.99], "texture": "#hoe"},
+				"west": {"uv": [7.01, 8.01, 7.99, 8.99], "texture": "#hoe"},
+				"up": {"uv": [7.01, 8.01, 9.99, 8.99], "texture": "#hoe"},
+				"down": {"uv": [7.01, 8.01, 9.99, 8.99], "texture": "#hoe"}
+			}
+		},
+		{
+			"name": "golden_hoe_34",
+			"from": [6, 6, 7.5],
+			"to": [9, 7, 8.5],
+			"faces": {
+				"north": {"uv": [8.99, 9.01, 6.01, 9.99], "texture": "#hoe"},
+				"east": {"uv": [8.01, 9.01, 8.99, 9.99], "texture": "#hoe"},
+				"south": {"uv": [6.01, 9.01, 8.99, 9.99], "texture": "#hoe"},
+				"west": {"uv": [6.01, 9.01, 6.99, 9.99], "texture": "#hoe"},
+				"up": {"uv": [6.01, 9.01, 8.99, 9.99], "texture": "#hoe"},
+				"down": {"uv": [6.01, 9.01, 8.99, 9.99], "texture": "#hoe"}
+			}
+		},
+		{
+			"name": "golden_hoe_37",
+			"from": [5, 5, 7.5],
+			"to": [8, 6, 8.5],
+			"faces": {
+				"north": {"uv": [7.99, 10.01, 5.01, 10.99], "texture": "#hoe"},
+				"east": {"uv": [7.01, 10.01, 7.99, 10.99], "texture": "#hoe"},
+				"south": {"uv": [5.01, 10.01, 7.99, 10.99], "texture": "#hoe"},
+				"west": {"uv": [5.01, 10.01, 5.99, 10.99], "texture": "#hoe"},
+				"up": {"uv": [5.01, 10.01, 7.99, 10.99], "texture": "#hoe"},
+				"down": {"uv": [5.01, 10.01, 7.99, 10.99], "texture": "#hoe"}
+			}
+		},
+		{
+			"name": "golden_hoe_40",
+			"from": [4, 4, 7.5],
+			"to": [7, 5, 8.5],
+			"faces": {
+				"north": {"uv": [6.99, 11.01, 4.01, 11.99], "texture": "#hoe"},
+				"east": {"uv": [6.01, 11.01, 6.99, 11.99], "texture": "#hoe"},
+				"south": {"uv": [4.01, 11.01, 6.99, 11.99], "texture": "#hoe"},
+				"west": {"uv": [4.01, 11.01, 4.99, 11.99], "texture": "#hoe"},
+				"up": {"uv": [4.01, 11.01, 6.99, 11.99], "texture": "#hoe"},
+				"down": {"uv": [4.01, 11.01, 6.99, 11.99], "texture": "#hoe"}
+			}
+		},
+		{
+			"name": "golden_hoe_45",
+			"from": [3, 3, 7.5],
+			"to": [6, 4, 8.5],
+			"faces": {
+				"north": {"uv": [5.99, 12.01, 3.01, 12.99], "texture": "#hoe"},
+				"east": {"uv": [5.01, 12.01, 5.99, 12.99], "texture": "#hoe"},
+				"south": {"uv": [3.01, 12.01, 5.99, 12.99], "texture": "#hoe"},
+				"west": {"uv": [3.01, 12.01, 3.99, 12.99], "texture": "#hoe"},
+				"up": {"uv": [3.01, 12.01, 5.99, 12.99], "texture": "#hoe"},
+				"down": {"uv": [3.01, 12.01, 5.99, 12.99], "texture": "#hoe"}
+			}
+		},
+		{
+			"name": "golden_hoe_48",
+			"from": [4, 2, 7.5],
+			"to": [5, 3, 8.5],
+			"faces": {
+				"north": {"uv": [4.01, 13.99, 4.99, 13.01], "rotation": 180, "texture": "#hoe"},
+				"east": {"uv": [4.01, 13.01, 4.99, 13.99], "texture": "#hoe"},
+				"south": {"uv": [4.01, 13.01, 4.99, 13.99], "texture": "#hoe"},
+				"down": {"uv": [4.01, 13.01, 4.99, 13.99], "texture": "#hoe"}
+			}
+		},
+		{
+			"name": "golden_hoe_49",
+			"from": [2, 1, 7.5],
+			"to": [4, 3, 8.5],
+			"faces": {
+				"north": {"uv": [3.99, 13.01, 2.01, 14.99], "texture": "#hoe"},
+				"east": {"uv": [3.01, 13.01, 3.99, 14.99], "texture": "#hoe"},
+				"south": {"uv": [2.01, 13.01, 3.99, 14.99], "texture": "#hoe"},
+				"west": {"uv": [2.01, 13.01, 2.99, 14.99], "texture": "#hoe"},
+				"up": {"uv": [2.01, 13.01, 3.99, 13.99], "texture": "#hoe"},
+				"down": {"uv": [2.01, 14.01, 3.99, 14.99], "texture": "#hoe"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"groups": [
+		{
+			"name": "golden_hoe",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+		}
+	]
+}

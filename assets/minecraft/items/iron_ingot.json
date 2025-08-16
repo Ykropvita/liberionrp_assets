@@ -1,0 +1,70 @@
+{
+	"oversized_in_gui": true,
+	"model": {
+    "type": "select",
+    "property": "component",
+    "component": "custom_name",
+    "cases": [
+				{
+					"when": "Радио",
+					"model": {
+						"type": "model",
+						"model": "item/decor/iron/radio"
+					}
+				},
+				{
+					"when": "Лорориметр",
+					"model": {
+						"type": "model",
+						"model": "item/decor/iron/lororimetr"
+					}
+				},
+				{
+					"when": "Мусорка",
+					"model": {
+						"type": "model",
+						"model": "item/decor/iron/musor"
+					}
+				},
+				{
+					"when": "Контейнер",
+					"model": {
+						"type": "model",
+						"model": "item/decor/iron/konteyner"
+					}
+				},
+				{
+					"when": "Пианино",
+					"model": {
+						"type": "model",
+						"model": "item/decor/iron/pianino"
+					}
+				},
+				{
+					"when": "Чайник",
+					"model": {
+						"type": "model",
+						"model": "item/decor/iron/chainik"
+					}
+				},
+				{
+					"when": "Весы справедливости",
+					"model": {
+						"type": "model",
+						"model": "item/decor/iron/vesi"
+					}
+				},
+				{
+					"when": "Керамический чайник",
+					"model": {
+						"type": "model",
+						"model": "item/decor/iron/chainik2"
+					}
+				}
+		],
+    "fallback": {
+          "type": "model",
+          "model": "minecraft:item/iron_ingot"
+    }
+  }
+}

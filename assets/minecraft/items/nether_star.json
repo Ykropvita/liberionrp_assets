@@ -1,0 +1,41 @@
+{
+	"oversized_in_gui": true,
+	"model": {
+    "type": "select",
+    "property": "component",
+    "component": "custom_name",
+    "cases": [
+				{"when": "Новогодняя звезда",
+				"model": {
+					"type": "composite",
+					"models": [
+						{
+							"type": "model",
+							"model": "item/decor/zv/1"
+						},
+						{
+							"type": "model",
+							"model": "item/decor/zv/2"
+						},
+						{
+							"type": "model",
+							"model": "item/decor/zv/3"
+						},
+						{
+							"type": "model",
+							"model": "item/decor/zv/4"
+						},
+						{
+							"type": "model",
+							"model": "item/decor/zv/5"
+						}
+					]
+				}
+			}
+		],
+    "fallback": {
+          "type": "model",
+          "model": "minecraft:item/nether_star"
+    }
+  }
+}
